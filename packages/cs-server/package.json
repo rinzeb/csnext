@@ -1,0 +1,20 @@
+{
+  "name": "@csnext/cs-server",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "link": "yarn link",
+    "build": "tsc -w"
+  },
+  "dependencies": {
+    "@csnext/cs-core": "^0.0.1",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.3.4",
+    "@types/node": "^7.0.23",
+    "@types/express": "^4.0.35"
+  }
+}
