@@ -32,4 +32,4 @@ Finally, run `yarn run build` to start the typescript compiler in watch mode for
 
 ## Developing your own client
 
-Clone [@csnext/cs-example]().
+Clone [https://github.com/TNOCS/cs-example]().
