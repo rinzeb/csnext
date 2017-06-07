@@ -15,6 +15,16 @@
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
+"@types/geojson@*":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-1.0.2.tgz#b02d10ab028e2928ac592a051aaa4981a1941d03"
+
+"@types/leaflet@^1.0.62":
+  version "1.0.62"
+  resolved "https://registry.yarnpkg.com/@types/leaflet/-/leaflet-1.0.62.tgz#4280a70ddaa797b92373ed7d8c5627458a8dc2b5"
+  dependencies:
+    "@types/geojson" "*"
+
 "@types/mime@*":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-0.0.29.tgz#fbcfd330573b912ef59eeee14602bface630754b"
@@ -152,7 +162,7 @@ aurelia-dependency-injection@^1.0.0, aurelia-dependency-injection@^1.3.1:
     aurelia-metadata "^1.0.0"
     aurelia-pal "^1.0.0"
 
-aurelia-event-aggregator@^1.0.0:
+aurelia-event-aggregator@^1.0.0, aurelia-event-aggregator@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/aurelia-event-aggregator/-/aurelia-event-aggregator-1.0.1.tgz#9d7c7c1e1efe1ef3a78785e76abe80601e2d34c8"
   dependencies:
@@ -1135,6 +1145,10 @@ lcid@^1.0.0:
   resolved "https://registry.yarnpkg.com/lcid/-/lcid-1.0.0.tgz#308accafa0bc483a3867b4b6f2b9506251d1b835"
   dependencies:
     invert-kv "^1.0.0"
+
+leaflet@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.0.3.tgz#1f401b98b45c8192134c6c8d69686253805007c8"
 
 lerna@^2.0.0-rc.5:
   version "2.0.0-rc.5"

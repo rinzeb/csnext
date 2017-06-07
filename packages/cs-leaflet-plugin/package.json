@@ -1,0 +1,23 @@
+{
+  "name": "@csnext/cs-leaflet-plugin",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "link": "yarn link",
+    "build": "tsc -w"
+  },
+  "keywords": [],
+  "author": "Erik Vullings <erik.vullings@gmail.com> (http://www.tno.nl)",
+  "license": "MIT",
+  "dependencies": {
+    "aurelia-event-aggregator": "^1.0.1",
+    "aurelia-framework": "^1.1.2",
+    "leaflet": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.0.62",
+    "typescript": "^2.3.4"
+  }
+}
